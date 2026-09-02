@@ -55,7 +55,9 @@ A EcoVadis oferece avaliações e scorecards de sustentabilidade para cadeias de
 
 **Evidência visual**
 
-![Página oficial da EcoVadis](evidencias/competidores/ecovadis.png)
+<a href="evidencias/competidores/ecovadis.png">
+  <img src="evidencias/competidores/ecovadis.png" alt="Página oficial da EcoVadis" width="1440" height="1000">
+</a>
 
 Fonte: [página oficial da plataforma EcoVadis](https://ecovadis.com/).
 

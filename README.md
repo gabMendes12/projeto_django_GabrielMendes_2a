@@ -34,10 +34,10 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - [x] [Requisitos não triviais](docs/requisitos.md)
 - [x] [Histórias de usuário em BDD](docs/historias-de-usuario.md)
 - [x] [Plano da Sprint 01](docs/plano-de-sprints.md)
-- [ ] Link para o quadro da Sprint 01 no Jira
+- [x] [Quadro da Sprint 01 no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1)
 - [ ] Print do quadro da Sprint 01 no README
 
-> Para concluir esta entrega, ainda falta inserir o link público do Jira e a imagem do quadro da Sprint 01.
+> Para concluir esta entrega, ainda falta adicionar a imagem do quadro da Sprint 01.
 
 ## Situação atual
 

@@ -59,7 +59,7 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - [x] [Sprint 02 criada e atualizada no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 - [ ] Print do quadro da Sprint 02 no README
 - [x] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/1)
-- [ ] Print do issue/bug tracker no README
+- [x] Print do issue/bug tracker no README
 
 ### Aplicação publicada
 
@@ -67,6 +67,10 @@ A aplicação está disponível em [projeto-django-gabriel-mendes-2a.vercel.app]
 
 Para acessar, basta abrir o link. O projeto está conectado ao GitHub e novos
 commits na branch `main` geram uma nova publicação na Vercel.
+
+### Issue tracker
+
+![Issue tracker da Entrega 02](docs/evidencias/issue-tracker.png)
 
 ## Situação atual
 

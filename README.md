@@ -23,7 +23,7 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 
 | Nome completo | E-mail CESAR School |
 | --- | --- |
-| _Preencher_ | _Preencher_ |
+| Gabriel Mendes Cavalcanti | gmc3@cesar.school |
 
 > Os nomes e e-mails da equipe ainda precisam ser preenchidos.
 

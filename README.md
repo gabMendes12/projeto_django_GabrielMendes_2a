@@ -19,6 +19,14 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - SQLite durante o desenvolvimento e banco relacional em produção
 - HTML, CSS e JavaScript
 
+## Como executar localmente
+
+1. Crie e ative um ambiente virtual Python.
+2. Instale as dependências com `pip install -r requirements.txt`.
+3. Execute `python manage.py migrate`.
+4. Inicie a aplicação com `python manage.py runserver`.
+5. Acesse `http://127.0.0.1:8000/`.
+
 ## Equipe
 
 | Nome completo | E-mail CESAR School |
@@ -41,9 +49,23 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 
 ![Quadro da Sprint 01](docs/evidencias/sprint-01.png)
 
+## Entrega 02: infraestrutura e publicação
+
+- [x] Infraestrutura básica da aplicação Django
+- [ ] Deployment da infraestrutura em produção
+- [ ] Link e instruções de acesso ao ambiente publicado
+- [ ] Screencast de uso do sistema no README
+- [ ] Screencast de explicação do código Django no README
+- [ ] Nova Sprint 02 criada e atualizada no Jira
+- [ ] Print do quadro da Sprint 02 no README
+- [ ] Issue/bug tracker do GitHub em uso
+- [ ] Print do issue/bug tracker no README
+
 ## Situação atual
 
-Neste momento, o repositório contém somente os materiais da Entrega 01. A implementação do sistema será adicionada quando as próximas entregas começarem.
+O repositório já contém a infraestrutura inicial da aplicação Django. O deploy,
+os screencasts, o quadro da Sprint 02 e o issue/bug tracker serão registrados
+assim que cada parte estiver configurada.
 
 ## Membros anteriores
 

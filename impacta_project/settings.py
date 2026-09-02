@@ -92,10 +92,15 @@ WSGI_APPLICATION = 'impacta_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+database_path = os.environ.get('DJANGO_DATABASE_PATH', str(BASE_DIR / 'db.sqlite3'))
+
+if os.environ.get('VERCEL') == '1' or os.environ.get('VERCEL_URL'):
+    database_path = '/tmp/impacta_esg.sqlite3'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': database_path,
     }
 }
 

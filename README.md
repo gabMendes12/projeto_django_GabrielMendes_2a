@@ -56,16 +56,17 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - [ ] Link e instruções de acesso ao ambiente publicado
 - [ ] Screencast de uso do sistema no README
 - [ ] Screencast de explicação do código Django no README
-- [ ] Nova Sprint 02 criada e atualizada no Jira
+- [x] [Sprint 02 criada e atualizada no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 - [ ] Print do quadro da Sprint 02 no README
-- [ ] Issue/bug tracker do GitHub em uso
+- [ ] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues)
 - [ ] Print do issue/bug tracker no README
 
 ## Situação atual
 
-O repositório já contém a infraestrutura inicial da aplicação Django. O deploy,
-os screencasts, o quadro da Sprint 02 e o issue/bug tracker serão registrados
-assim que cada parte estiver configurada.
+O repositório já contém a infraestrutura inicial da aplicação Django. A Sprint
+02 foi criada no Jira e está organizada com cinco tickets. O deploy, os
+screencasts, as capturas de evidência e o issue tracker serão registrados assim
+que cada parte estiver configurada.
 
 ## Membros anteriores
 

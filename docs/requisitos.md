@@ -4,7 +4,9 @@
 
 Ajudar uma pequena ou média empresa a entender seu momento ESG, escolher ações viáveis e acompanhar os benefícios gerados por essas ações.
 
-## Requisitos funcionais
+## Requisitos funcionais não triviais
+
+Os requisitos abaixo foram escolhidos para que o produto faça mais do que apenas apresentar informações. Eles envolvem personalização, cálculo, priorização, acompanhamento e registro de dados.
 
 ### RF01: cadastro do contexto da empresa
 

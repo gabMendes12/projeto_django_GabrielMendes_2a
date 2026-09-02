@@ -1,0 +1,35 @@
+{% extends "forum/base.html" %}
+
+{% block title %}Nova pergunta | Impacta ESG{% endblock %}
+
+{% block content %}
+<h1>Nova pergunta</h1>
+<p class="subtitulo">Descreva sua dúvida para receber contribuições da comunidade.</p>
+
+{% if erro %}
+    <p class="erro">{{ erro }}</p>
+{% endif %}
+
+<form method="post">
+    {% csrf_token %}
+    <div class="campo">
+        <label for="titulo">Escreva sua pergunta</label>
+        <input type="text" name="titulo" id="titulo" maxlength="200" value="{{ dados.titulo|default:'' }}" required>
+    </div>
+
+    <div class="campo">
+        <label for="detalhe">Detalhe o problema</label>
+        <textarea id="detalhe" name="detalhe" required>{{ dados.detalhe|default:'' }}</textarea>
+    </div>
+
+    <div class="campo">
+        <label for="tentativa">Escreva o que você já tentou</label>
+        <textarea id="tentativa" name="tentativa">{{ dados.tentativa|default:'' }}</textarea>
+    </div>
+
+    <div class="acoes">
+        <input type="submit" value="Salvar pergunta">
+        <a class="botao botao-secundario" href="{% url 'forum:index' %}">Cancelar</a>
+    </div>
+</form>
+{% endblock %}

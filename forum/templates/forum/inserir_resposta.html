@@ -1,0 +1,22 @@
+{% extends "forum/detalhe.html" %}
+
+{% block respostas %}
+<h2>Adicionar resposta</h2>
+
+{% if erro %}
+    <p class="erro">{{ erro }}</p>
+{% endif %}
+
+<form method="post">
+    {% csrf_token %}
+    <div class="campo">
+        <label for="texto">Escreva sua resposta</label>
+        <textarea id="texto" name="texto_resposta" required></textarea>
+    </div>
+
+    <div class="acoes">
+        <input type="submit" value="Salvar resposta">
+        <a class="botao botao-secundario" href="{% url 'forum:detalhe' pergunta.id %}">Cancelar</a>
+    </div>
+</form>
+{% endblock %}

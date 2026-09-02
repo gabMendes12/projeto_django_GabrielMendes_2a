@@ -1,0 +1,29 @@
+{% extends "forum/base.html" %}
+
+{% block title %}Perguntas | Impacta ESG{% endblock %}
+
+{% block content %}
+<h1>Fórum Impacta ESG</h1>
+<p class="subtitulo">
+    Compartilhe dúvidas e ideias sobre como aplicar ESG em pequenas e médias empresas.
+</p>
+
+{% if perguntas %}
+    <h2>Últimas perguntas</h2>
+    <ul class="lista-perguntas">
+    {% for pergunta in perguntas %}
+        <li class="pergunta">
+            <a href="{% url 'forum:detalhe' pergunta.id %}">{{ pergunta.titulo }}</a>
+            <p class="meta">
+                {{ pergunta.usuario }} · {{ pergunta.data_criacao|date:"d/m/Y H:i" }}
+            </p>
+            <p>{{ pergunta.detalhe|truncatechars:180 }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Nenhuma pergunta disponível. Seja a primeira pessoa a publicar.</p>
+{% endif %}
+
+<a class="botao" href="{% url 'forum:inserir_pergunta' %}">Nova pergunta</a>
+{% endblock %}

@@ -58,7 +58,7 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - [ ] Screencast de explicação do código Django no README
 - [x] [Sprint 02 criada e atualizada no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 - [ ] Print do quadro da Sprint 02 no README
-- [ ] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues)
+- [x] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/1)
 - [ ] Print do issue/bug tracker no README
 
 ### Aplicação publicada

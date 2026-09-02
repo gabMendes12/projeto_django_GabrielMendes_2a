@@ -23,7 +23,9 @@ O B Impact Assessment é uma autoavaliação de impacto empresarial associada à
 
 **Evidência visual**
 
-Consultar a [página oficial sobre a estrutura do B Impact Assessment](https://kb.bimpactassessment.net/en/support/solutions/articles/43000574682-b-impact-assessment-structure) e salvar um print em `docs/evidencias/competidores/b-impact-assessment.png`.
+![Página oficial do B Impact Assessment](evidencias/competidores/b-impact-assessment.png)
+
+Fonte: [página oficial sobre a estrutura do B Impact Assessment](https://kb.bimpactassessment.net/en/support/solutions/articles/43000574682-b-impact-assessment-structure).
 
 **Pontos fortes**
 
@@ -53,7 +55,9 @@ A EcoVadis oferece avaliações e scorecards de sustentabilidade para cadeias de
 
 **Evidência visual**
 
-Consultar a [página oficial da plataforma EcoVadis](https://ecovadis.com/) e salvar um print em `docs/evidencias/competidores/ecovadis.png`.
+![Página oficial da EcoVadis](evidencias/competidores/ecovadis.png)
+
+Fonte: [página oficial da plataforma EcoVadis](https://ecovadis.com/).
 
 **Pontos fortes**
 
@@ -83,7 +87,9 @@ O CDP opera um sistema de divulgação ambiental para empresas, investidores e g
 
 **Evidência visual**
 
-Consultar o [guia oficial de divulgação do CDP](https://www.cdp.net/en/disclose/how-to-disclose) e salvar um print em `docs/evidencias/competidores/cdp.png`.
+![Guia oficial de divulgação do CDP](evidencias/competidores/cdp.png)
+
+Fonte: [guia oficial de divulgação do CDP](https://www.cdp.net/en/disclose/how-to-disclose).
 
 **Pontos fortes**
 
@@ -113,7 +119,9 @@ A Normative oferece uma plataforma de contabilidade de carbono com dados para os
 
 **Evidência visual**
 
-Consultar a [página oficial da plataforma Normative](https://normative.io/platform/) e salvar um print em `docs/evidencias/competidores/normative.png`.
+![Página oficial da plataforma Normative](evidencias/competidores/normative.png)
+
+Fonte: [página oficial da plataforma Normative](https://normative.io/platform/).
 
 **Pontos fortes**
 
@@ -143,7 +151,9 @@ A Greenly se posiciona como uma solução de contabilidade de carbono e gestão 
 
 **Evidência visual**
 
-Consultar a [página oficial da Greenly](https://greenly.earth/) e salvar um print em `docs/evidencias/competidores/greenly.png`.
+![Página oficial da Greenly](evidencias/competidores/greenly.png)
+
+Fonte: [página oficial da Greenly](https://greenly.earth/).
 
 **Pontos fortes**
 

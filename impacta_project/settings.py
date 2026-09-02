@@ -27,15 +27,20 @@ SECRET_KEY = os.environ.get(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG', 'True').lower() == 'true'
+DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
 
 allowed_hosts = os.environ.get(
     'DJANGO_ALLOWED_HOSTS',
     'localhost,127.0.0.1,[::1]',
 ).split(',')
 
-if os.environ.get('VERCEL_URL'):
-    allowed_hosts.append(os.environ['VERCEL_URL'])
+for vercel_host_variable in (
+    'VERCEL_URL',
+    'VERCEL_BRANCH_URL',
+    'VERCEL_PROJECT_PRODUCTION_URL',
+):
+    if os.environ.get(vercel_host_variable):
+        allowed_hosts.append(os.environ[vercel_host_variable])
 
 ALLOWED_HOSTS = [host.strip() for host in allowed_hosts if host.strip()]
 

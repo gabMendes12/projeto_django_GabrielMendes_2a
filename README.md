@@ -25,7 +25,7 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 | --- | --- |
 | Gabriel Mendes Cavalcanti | gmc3@cesar.school |
 
-> Os nomes e e-mails da equipe ainda precisam ser preenchidos.
+> A equipe registrada nesta etapa está listada acima.
 
 ## Entrega 01: análise e planejamento
 

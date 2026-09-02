@@ -52,8 +52,8 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 ## Entrega 02: infraestrutura e publicação
 
 - [x] Infraestrutura básica da aplicação Django
-- [ ] Deployment da infraestrutura em produção
-- [ ] Link e instruções de acesso ao ambiente publicado
+- [x] Deployment da infraestrutura em produção
+- [x] Link e instruções de acesso ao ambiente publicado
 - [ ] Screencast de uso do sistema no README
 - [ ] Screencast de explicação do código Django no README
 - [x] [Sprint 02 criada e atualizada no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
@@ -61,12 +61,19 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - [ ] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues)
 - [ ] Print do issue/bug tracker no README
 
+### Aplicação publicada
+
+A aplicação está disponível em [projeto-django-gabriel-mendes-2a.vercel.app](https://projeto-django-gabriel-mendes-2a.vercel.app/).
+
+Para acessar, basta abrir o link. O projeto está conectado ao GitHub e novos
+commits na branch `main` geram uma nova publicação na Vercel.
+
 ## Situação atual
 
-O repositório já contém a infraestrutura inicial da aplicação Django. A Sprint
-02 foi criada no Jira e está organizada com cinco tickets. O deploy, os
-screencasts, as capturas de evidência e o issue tracker serão registrados assim
-que cada parte estiver configurada.
+O repositório já contém a infraestrutura inicial da aplicação Django e está
+publicado na Vercel. A Sprint 02 foi criada no Jira e está organizada com cinco
+tickets. Os screencasts, as capturas de evidência e o issue tracker ainda serão
+registrados.
 
 ## Membros anteriores
 

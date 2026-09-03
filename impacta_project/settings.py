@@ -27,7 +27,8 @@ SECRET_KEY = os.environ.get(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DJANGO_DEBUG', 'False').lower() == 'true'
+local_debug_default = 'False' if os.environ.get('VERCEL') == '1' else 'True'
+DEBUG = os.environ.get('DJANGO_DEBUG', local_debug_default).lower() == 'true'
 
 allowed_hosts = os.environ.get(
     'DJANGO_ALLOWED_HOSTS',

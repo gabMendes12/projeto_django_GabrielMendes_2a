@@ -19,6 +19,19 @@ Nossa proposta reúne um diagnóstico curto, um plano de ação e indicadores si
 - SQLite durante o desenvolvimento e banco relacional em produção
 - HTML, CSS e JavaScript
 
+## Exemplo Django aplicado
+
+O projeto também segue o exemplo prático do professor com um fórum simples
+para compartilhar dúvidas e respostas sobre ESG.
+
+- Lista de perguntas: `/forum/`
+- Detalhe de uma pergunta: `/forum/1/`
+- Nova pergunta: `/forum/inserir/`
+- Nova resposta: `/forum/1/resposta/`
+- Página inicial da proposta ESG: `/impacta/`
+
+As tabelas do fórum são criadas com `python manage.py migrate`.
+
 ## Como executar localmente
 
 1. Crie e ative um ambiente virtual Python.
@@ -74,10 +87,10 @@ commits na branch `main` geram uma nova publicação na Vercel.
 
 ## Situação atual
 
-O repositório já contém a infraestrutura inicial da aplicação Django e está
-publicado na Vercel. A Sprint 02 foi criada no Jira e está organizada com cinco
-tickets. Os screencasts, as capturas de evidência e o issue tracker ainda serão
-registrados.
+O repositório contém a infraestrutura inicial da aplicação Django, o fluxo do
+fórum do exemplo e está publicado na Vercel. A Sprint 02 foi criada no Jira e
+está organizada com cinco tickets. Ainda faltam os dois screencasts e o print
+do quadro da Sprint 02 no README.
 
 ## Membros anteriores
 

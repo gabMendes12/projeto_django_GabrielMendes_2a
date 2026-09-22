@@ -67,8 +67,8 @@ As tabelas do fórum são criadas com `python manage.py migrate`.
 - [x] Infraestrutura básica da aplicação Django
 - [x] Deployment da infraestrutura em produção
 - [x] Link e instruções de acesso ao ambiente publicado
-- [ ] Screencast de uso do sistema no README
-- [ ] Screencast de explicação do código Django no README
+- [x] Screencast de uso do sistema no README
+- [x] Screencast de explicação do código Django no README
 - [x] [Sprint 02 criada e atualizada no Jira](https://projetofds-gabmendes12.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 - [ ] Print do quadro da Sprint 02 no README
 - [x] [Issue/bug tracker do GitHub em uso](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/1)
@@ -81,6 +81,11 @@ A aplicação está disponível em [projeto-django-gabriel-mendes-2a.vercel.app]
 Para acessar, basta abrir o link. O projeto está conectado ao GitHub e novos
 commits na branch `main` geram uma nova publicação na Vercel.
 
+### Screencasts da Entrega 02
+
+- [Demonstração de uso do sistema](https://youtu.be/KMuzSCL4ZfQ?si=qFBmC-s2jiPuku8t)
+- [Explicação do código e do fluxo Django](https://youtu.be/HdCmk_b3J_k?si=3WZL3p3dH3ISatT9)
+
 ### Issue tracker
 
 ![Issue tracker da Entrega 02](docs/evidencias/issue-tracker.png)
@@ -89,8 +94,8 @@ commits na branch `main` geram uma nova publicação na Vercel.
 
 O repositório contém a infraestrutura inicial da aplicação Django, o fluxo do
 fórum do exemplo e está publicado na Vercel. A Sprint 02 foi criada no Jira e
-está organizada com cinco tickets. Ainda faltam os dois screencasts e o print
-do quadro da Sprint 02 no README.
+está organizada com cinco tickets. Os dois screencasts foram adicionados;
+resta inserir o print atualizado do quadro da Sprint 02 no README.
 
 ## Membros anteriores
 

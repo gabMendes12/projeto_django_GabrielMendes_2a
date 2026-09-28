@@ -29,6 +29,8 @@ para compartilhar dúvidas e respostas sobre ESG.
 - Nova pergunta: `/forum/inserir/`
 - Nova resposta: `/forum/1/resposta/`
 - Página inicial da proposta ESG: `/impacta/`
+- Página Equipe: `/impacta/equipe/`
+- Página Fale Conosco: `/impacta/fale-conosco/`
 
 As tabelas do fórum são criadas com `python manage.py migrate`.
 
@@ -94,12 +96,49 @@ commits na branch `main` geram uma nova publicação na Vercel.
 
 ![Issue tracker da Entrega 02](docs/evidencias/issue-tracker.png)
 
+## Entrega 03: histórias e evolução do produto
+
+- [x] [Seis histórias de usuário com cenários BDD](docs/historias-entrega-03.md)
+- [x] Seleção de três histórias para implementação
+- [x] Sprint 03 criada no Jira
+- [x] Print inicial do backlog da Sprint 03 no README
+- [ ] Deployment das histórias atualizado
+- [ ] Screencast de uso das histórias no README
+- [ ] Issue/bug tracker atualizado com três itens
+- [ ] Print do issue tracker atualizado no README
+- [ ] Screencast de explicação do código Django no README
+- [ ] Print final do quadro da Sprint 03 no README
+
+### Histórias implementadas
+
+**US01 — Enviar mensagem de contato**
+
+Como pessoa interessada no Impacta ESG, quero enviar uma mensagem pela página
+Fale Conosco para tirar uma dúvida ou sugerir uma melhoria. O formulário valida
+os campos, registra mensagens válidas e confirma o envio.
+
+**US02 — Consultar a equipe**
+
+Como pessoa visitante, quero consultar a página Equipe para saber quem
+participa da construção do Impacta ESG. A página apresenta o integrante, sua
+atuação e um meio de contato.
+
+**US03 — Pesquisar perguntas no fórum**
+
+Como pessoa responsável por uma PME, quero pesquisar perguntas no fórum para
+encontrar orientações sobre um tema ESG específico. A busca filtra título e
+descrição e apresenta feedback quando nenhum termo é informado.
+
+### Backlog inicial da Sprint 03
+
+![Backlog inicial da Sprint 03](docs/evidencias/sprint-03-backlog.png)
+
 ## Situação atual
 
-O repositório contém a infraestrutura inicial da aplicação Django, o fluxo do
-fórum do exemplo e está publicado na Vercel. A Entrega 02 está documentada com
-os links dos dois screencasts, o quadro atualizado no Jira e a evidência do
-issue tracker do GitHub.
+O repositório contém a infraestrutura inicial da aplicação Django, o fórum de
+perguntas e as funcionalidades em desenvolvimento da Entrega 03: página
+Equipe, Fale Conosco e pesquisa de perguntas. As evidências pendentes da etapa
+são deployment, vídeos, issue tracker atualizado e quadro final da Sprint 03.
 
 ## Membros anteriores
 

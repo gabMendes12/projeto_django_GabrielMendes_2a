@@ -3,6 +3,7 @@ from django.shortcuts import redirect, render
 from django.urls import reverse
 from django.utils import timezone
 from django.views import View
+from django.db.models import Q
 
 from .models import Pergunta, Resposta
 
@@ -10,7 +11,34 @@ from .models import Pergunta, Resposta
 class MainView(View):
     def get(self, request):
         perguntas = Pergunta.objects.order_by('-data_criacao')
-        return render(request, 'forum/index.html', {'perguntas': perguntas})
+        busca = request.GET.get('busca', '').strip()
+        busca_foi_enviada = 'busca' in request.GET
+
+        if busca_foi_enviada and not busca:
+            return render(
+                request,
+                'forum/index.html',
+                {
+                    'perguntas': perguntas,
+                    'erro_busca': 'Digite um termo antes de pesquisar.',
+                },
+                status=400,
+            )
+
+        if busca:
+            perguntas = perguntas.filter(
+                Q(titulo__icontains=busca) | Q(detalhe__icontains=busca)
+            )
+
+        return render(
+            request,
+            'forum/index.html',
+            {
+                'perguntas': perguntas,
+                'busca': busca,
+                'busca_foi_enviada': busca_foi_enviada,
+            },
+        )
 
 
 class PerguntaView(View):

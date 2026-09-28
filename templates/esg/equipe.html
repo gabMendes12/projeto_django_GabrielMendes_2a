@@ -1,0 +1,20 @@
+{% extends "esg/base.html" %}
+
+{% block title %}Equipe | Impacta ESG{% endblock %}
+
+{% block content %}
+<h1>Equipe</h1>
+<p class="subtitulo">
+    Conheça as pessoas responsáveis por construir o Impacta ESG.
+</p>
+
+<section class="cartoes-equipe" aria-label="Membros da equipe">
+    {% for membro in membros %}
+        <article class="cartao-equipe">
+            <h2>{{ membro.nome }}</h2>
+            <p><strong>Atuação:</strong> {{ membro.papel }}</p>
+            <p><a href="mailto:{{ membro.email }}">{{ membro.email }}</a></p>
+        </article>
+    {% endfor %}
+</section>
+{% endblock %}

@@ -188,6 +188,74 @@ textarea {
     margin-top: 12px;
 }
 
+.busca {
+    margin: 24px 0;
+}
+
+.busca-controles {
+    display: flex;
+    gap: 10px;
+}
+
+.busca-controles input {
+    flex: 1;
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background: var(--verde);
+    color: var(--branco);
+    cursor: pointer;
+    font: inherit;
+}
+
+button:hover {
+    background: var(--verde-escuro);
+}
+
+.resultado-busca,
+.sucesso {
+    margin: 18px 0;
+    padding: 12px;
+    border-radius: 6px;
+    background: var(--verde-claro);
+    color: var(--verde-escuro);
+}
+
+.cartoes-equipe {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    margin-top: 24px;
+}
+
+.cartao-equipe {
+    padding: 20px;
+    border: 1px solid var(--borda);
+    border-radius: 8px;
+}
+
+.cartao-equipe h2 {
+    margin-bottom: 6px;
+}
+
+.cartao-equipe p {
+    margin: 6px 0;
+}
+
+.campo-erro {
+    display: block;
+    margin-top: 6px;
+    color: #a3291e;
+    font-size: 0.9rem;
+}
+
+.com-erro {
+    border-color: #a3291e;
+}
+
 @media (max-width: 650px) {
     .cabecalho .largura {
         align-items: flex-start;
@@ -201,5 +269,9 @@ textarea {
     .container,
     .largura {
         width: min(100% - 24px, 920px);
+    }
+
+    .busca-controles {
+        flex-direction: column;
     }
 }

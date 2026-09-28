@@ -8,6 +8,22 @@
     Compartilhe dúvidas e ideias sobre como aplicar ESG em pequenas e médias empresas.
 </p>
 
+<form class="busca" method="get">
+    <label for="busca">Pesquisar perguntas</label>
+    <div class="busca-controles">
+        <input type="text" name="busca" id="busca" value="{{ busca|default:'' }}" placeholder="Ex.: consumo de energia">
+        <button type="submit">Pesquisar</button>
+    </div>
+</form>
+
+{% if erro_busca %}
+    <p class="erro">{{ erro_busca }}</p>
+{% endif %}
+
+{% if busca_foi_enviada and busca %}
+    <p class="resultado-busca">Resultados para “{{ busca }}”.</p>
+{% endif %}
+
 {% if perguntas %}
     <h2>Últimas perguntas</h2>
     <ul class="lista-perguntas">

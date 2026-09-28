@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Os modelos do produto serão registrados aqui quando forem criados.
+from .models import MensagemContato
+
+
+@admin.register(MensagemContato)
+class MensagemContatoAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'email', 'assunto', 'data_envio')
+    search_fields = ('nome', 'email', 'assunto')
+    readonly_fields = ('data_envio',)

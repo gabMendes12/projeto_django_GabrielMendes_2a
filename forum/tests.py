@@ -62,3 +62,30 @@ class ForumTests(TestCase):
         self.assertRedirects(response, f'/forum/{pergunta.id}/')
         resposta.refresh_from_db()
         self.assertEqual(resposta.votos, 1)
+
+    def test_pesquisa_perguntas_por_termo(self):
+        Pergunta.objects.create(
+            titulo='Como medir energia?',
+            detalhe='Quero acompanhar o consumo mensal.',
+            data_criacao=timezone.now(),
+        )
+        Pergunta.objects.create(
+            titulo='Como envolver a equipe?',
+            detalhe='Quero criar uma ação social.',
+            data_criacao=timezone.now(),
+        )
+
+        response = self.client.get('/forum/', {'busca': 'energia'})
+
+        self.assertContains(response, 'Como medir energia?')
+        self.assertNotContains(response, 'Como envolver a equipe?')
+
+    def test_pesquisa_vazia_exibe_erro(self):
+        response = self.client.get('/forum/', {'busca': ''})
+
+        self.assertEqual(response.status_code, 400)
+        self.assertContains(
+            response,
+            'Digite um termo antes de pesquisar.',
+            status_code=400,
+        )

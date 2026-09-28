@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Impacta ESG{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="largura">
+            <a class="marca" href="{% url 'esg:home' %}">Impacta ESG</a>
+            <nav class="navegacao" aria-label="Navegação principal">
+                <a href="{% url 'forum:index' %}">Perguntas</a>
+                <a href="{% url 'forum:inserir_pergunta' %}">Criar pergunta</a>
+                <a href="{% url 'esg:home' %}">Sobre</a>
+                <a href="{% url 'esg:equipe' %}">Equipe</a>
+                <a href="{% url 'esg:fale_conosco' %}">Fale conosco</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

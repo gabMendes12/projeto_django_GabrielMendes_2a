@@ -1,6 +1,12 @@
 from django.contrib import admin
 
-from .models import MensagemContato
+from .models import MensagemContato, MembroEquipe
+
+
+@admin.register(MembroEquipe)
+class MembroEquipeAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'papel', 'email')
+    search_fields = ('nome', 'papel', 'email')
 
 
 @admin.register(MensagemContato)

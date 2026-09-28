@@ -37,7 +37,8 @@ quem participa da construção do Impacta ESG.
 
 ```gherkin
 Cenário: visualizar os integrantes da equipe
-  Dado que a pessoa acessou a página Equipe
+  Dado que existem integrantes cadastrados no banco de dados
+  E a pessoa acessou a página Equipe
   Quando a página for carregada
   Então o sistema deve exibir o nome, a atuação e o e-mail dos integrantes
 

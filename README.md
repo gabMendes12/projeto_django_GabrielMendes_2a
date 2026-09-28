@@ -121,7 +121,7 @@ os campos, registra mensagens válidas e confirma o envio.
 
 Como pessoa visitante, quero consultar a página Equipe para saber quem
 participa da construção do Impacta ESG. A página apresenta o integrante, sua
-atuação e um meio de contato.
+atuação e um meio de contato cadastrados no banco de dados.
 
 **US03 — Pesquisar perguntas no fórum**
 

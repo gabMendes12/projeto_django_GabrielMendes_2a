@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from .models import MensagemContato
+from .models import MensagemContato, MembroEquipe
 
 
 class HomePageTests(TestCase):
@@ -16,6 +16,14 @@ class HomePageTests(TestCase):
         self.assertRedirects(response, '/forum/')
 
     def test_equipe_exibe_membro(self):
+        MembroEquipe.objects.get_or_create(
+            email='gmc3@cesar.school',
+            defaults={
+                'nome': 'Gabriel Mendes Cavalcanti',
+                'papel': 'Desenvolvimento e documentação',
+            },
+        )
+
         response = self.client.get('/impacta/equipe/')
 
         self.assertEqual(response.status_code, 200)

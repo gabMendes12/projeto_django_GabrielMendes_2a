@@ -4,6 +4,20 @@ from django.db import models
 from django.db import models
 
 
+class MembroEquipe(models.Model):
+    nome = models.CharField(max_length=120)
+    papel = models.CharField(max_length=160)
+    email = models.EmailField(unique=True)
+
+    class Meta:
+        ordering = ['nome']
+        verbose_name = 'membro da equipe'
+        verbose_name_plural = 'membros da equipe'
+
+    def __str__(self):
+        return self.nome
+
+
 class MensagemContato(models.Model):
     nome = models.CharField(max_length=120)
     email = models.EmailField()

@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from django.views.generic.base import RedirectView
+
+from esg.views import redirecionar_para_forum
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('impacta/', include('esg.urls')),
     path('forum/', include('forum.urls')),
-    path('', RedirectView.as_view(url='/forum/', permanent=False), name='home'),
+    path('', redirecionar_para_forum, name='home'),
 ]

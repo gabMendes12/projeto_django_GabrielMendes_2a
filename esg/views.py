@@ -3,21 +3,19 @@ from django.core.validators import validate_email
 from django.shortcuts import redirect, render
 from django.urls import reverse
 
-from .models import MensagemContato
+from .models import MensagemContato, MembroEquipe
 
 
 def home(request):
     return render(request, 'esg/home.html')
 
 
+def redirecionar_para_forum(request):
+    return redirect('forum:index')
+
+
 def equipe(request):
-    membros = [
-        {
-            'nome': 'Gabriel Mendes Cavalcanti',
-            'papel': 'Desenvolvimento e documentação',
-            'email': 'gmc3@cesar.school',
-        }
-    ]
+    membros = MembroEquipe.objects.all()
     return render(request, 'esg/equipe.html', {'membros': membros})
 
 

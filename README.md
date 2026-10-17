@@ -104,7 +104,7 @@ commits na branch `main` geram uma nova publicação na Vercel.
 - [x] Print inicial do backlog da Sprint 03 no README
 - [ ] Deployment das histórias atualizado
 - [ ] Screencast de uso das histórias no README
-- [ ] Issue/bug tracker atualizado com três itens
+- [x] Issue/bug tracker atualizado com três itens
 - [ ] Print do issue tracker atualizado no README
 - [ ] Screencast de explicação do código Django no README
 - [ ] Print final do quadro da Sprint 03 no README
@@ -129,6 +129,14 @@ Como pessoa responsável por uma PME, quero pesquisar perguntas no fórum para
 encontrar orientações sobre um tema ESG específico. A busca filtra título e
 descrição e apresenta feedback quando nenhum termo é informado.
 
+### Issue tracker atualizado
+
+Foram registrados os itens de acompanhamento da Entrega 03 no GitHub:
+
+- [#2 — Persistir mensagens de contato em produção](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/2)
+- [#3 — Exibir feedback quando a busca não encontra perguntas](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/3)
+- [#4 — Confirmar o recebimento de mensagens de contato](https://github.com/gabMendes12/projeto_django_GabrielMendes_2a/issues/4)
+
 ### Backlog inicial da Sprint 03
 
 ![Backlog inicial da Sprint 03](docs/evidencias/sprint-03-backlog.png)
@@ -138,7 +146,7 @@ descrição e apresenta feedback quando nenhum termo é informado.
 O repositório contém a infraestrutura inicial da aplicação Django, o fórum de
 perguntas e as funcionalidades em desenvolvimento da Entrega 03: página
 Equipe, Fale Conosco e pesquisa de perguntas. As evidências pendentes da etapa
-são deployment, vídeos, issue tracker atualizado e quadro final da Sprint 03.
+são os vídeos, o print do issue tracker e o quadro final da Sprint 03.
 
 ## Membros anteriores
 

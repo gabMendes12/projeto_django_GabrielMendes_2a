@@ -143,11 +143,6 @@ Foram registrados os itens de acompanhamento da Entrega 03 no GitHub:
 
 ![Backlog inicial da Sprint 03](docs/evidencias/sprint-03-backlog.png)
 
-### Quadro final da Sprint 03
-
-As histórias US01 (Fale Conosco), US02 (Equipe) e US03 (Busca no Fórum) foram
-registradas na Sprint 03 e marcadas como desenvolvidas no Jira.
-
 
 ## Situação atual
 

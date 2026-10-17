@@ -107,7 +107,7 @@ commits na branch `main` geram uma nova publicação na Vercel.
 - [x] Issue/bug tracker atualizado com três itens
 - [x] Print do issue tracker atualizado no README
 - [ ] Screencast de explicação do código Django no README
-- [ ] Print final do quadro da Sprint 03 no README
+- [x] Print final do quadro da Sprint 03 no README
 
 ### Histórias implementadas
 
@@ -143,12 +143,19 @@ Foram registrados os itens de acompanhamento da Entrega 03 no GitHub:
 
 ![Backlog inicial da Sprint 03](docs/evidencias/sprint-03-backlog.png)
 
+### Quadro final da Sprint 03
+
+As histórias US01 (Fale Conosco), US02 (Equipe) e US03 (Busca no Fórum) foram
+registradas na Sprint 03 e marcadas como desenvolvidas no Jira.
+
+![Quadro final da Sprint 03](docs/evidencias/sprint-03-final.png)
+
 ## Situação atual
 
 O repositório contém a infraestrutura inicial da aplicação Django, o fórum de
 perguntas e as funcionalidades em desenvolvimento da Entrega 03: página
 Equipe, Fale Conosco e pesquisa de perguntas. As evidências pendentes da etapa
-são os vídeos e o quadro final da Sprint 03.
+são os vídeos de uso e de explicação do código.
 
 ## Membros anteriores
 
